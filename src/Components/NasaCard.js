@@ -9,7 +9,7 @@ const NasaCard = props => {
       <div className="bottom">
         <p>Title: {props.title}</p>
         <p>Date: {props.date}</p>
-        <p>explanation: {props.explanation}</p>
+        <p>{props.explanation}</p>
       </div>
     </div>
   );
