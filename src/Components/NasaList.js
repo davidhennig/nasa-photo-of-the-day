@@ -29,7 +29,6 @@ export default function NasaList() {
           title={photo.title}
         />
       }
-      )}
     </div>
   );
 }

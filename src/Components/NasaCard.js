@@ -3,12 +3,11 @@ import React from "react";
 const NasaCard = props => {
   return (
     <div className="film-list">
-      <h2>NASA PHOTO OF THE DAY 🚀</h2>
+      <h1>NASA PHOTO OF THE DAY 🚀</h1>
       <img src={props.hdurl} />
-      <p>'change image'}</p>
       <div className="bottom">
-        <p>Title: {props.title}</p>
-        <p>Date: {props.date}</p>
+        <h2>Title: {props.title}</h2>
+        <h3>Date: {props.date}</h3>
         <p>{props.explanation}</p>
       </div>
     </div>
